@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		7A46D55A2D31534A00D1FD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5592D31534A00D1FD68 /* AppDelegate.swift */; };
 		7A46D55C2D31534A00D1FD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D55B2D31534A00D1FD68 /* SceneDelegate.swift */; };
-		7A46D55E2D31534A00D1FD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D55D2D31534A00D1FD68 /* ViewController.swift */; };
-		7A46D5612D31534A00D1FD68 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A46D5602D31534A00D1FD68 /* Base */; };
+		7A46D55E2D31534A00D1FD68 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D55D2D31534A00D1FD68 /* MainTabBarController.swift */; };
 		7A46D5642D31534A00D1FD68 /* Twitter_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5622D31534A00D1FD68 /* Twitter_Clone.xcdatamodeld */; };
 		7A46D5662D31534C00D1FD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A46D5652D31534C00D1FD68 /* Assets.xcassets */; };
 		7A46D5692D31534C00D1FD68 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A46D5682D31534C00D1FD68 /* Base */; };
+		7A46D5732D31553700D1FD68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5722D31553700D1FD68 /* HomeViewController.swift */; };
+		7A46D5752D31553E00D1FD68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5742D31553E00D1FD68 /* SearchViewController.swift */; };
+		7A46D5772D31554F00D1FD68 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5762D31554F00D1FD68 /* NotificationsViewController.swift */; };
+		7A46D5792D31555F00D1FD68 /* DirectMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5782D31555F00D1FD68 /* DirectMessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A46D5562D31534A00D1FD68 /* Twitter Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A46D5592D31534A00D1FD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A46D55B2D31534A00D1FD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A46D55D2D31534A00D1FD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A46D5602D31534A00D1FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A46D55D2D31534A00D1FD68 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		7A46D5632D31534A00D1FD68 /* Twitter_Clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twitter_Clone.xcdatamodel; sourceTree = "<group>"; };
 		7A46D5652D31534C00D1FD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A46D5682D31534C00D1FD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A46D56A2D31534C00D1FD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A46D5722D31553700D1FD68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A46D5742D31553E00D1FD68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7A46D5762D31554F00D1FD68 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		7A46D5782D31555F00D1FD68 /* DirectMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,33 @@
 			children = (
 				7A46D5592D31534A00D1FD68 /* AppDelegate.swift */,
 				7A46D55B2D31534A00D1FD68 /* SceneDelegate.swift */,
-				7A46D55D2D31534A00D1FD68 /* ViewController.swift */,
-				7A46D55F2D31534A00D1FD68 /* Main.storyboard */,
+				7A46D5702D3154F200D1FD68 /* Controllers */,
 				7A46D5652D31534C00D1FD68 /* Assets.xcassets */,
 				7A46D5672D31534C00D1FD68 /* LaunchScreen.storyboard */,
 				7A46D56A2D31534C00D1FD68 /* Info.plist */,
 				7A46D5622D31534A00D1FD68 /* Twitter_Clone.xcdatamodeld */,
 			);
 			path = "Twitter Clone";
+			sourceTree = "<group>";
+		};
+		7A46D5702D3154F200D1FD68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A46D5712D3154F900D1FD68 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A46D5712D3154F900D1FD68 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A46D55D2D31534A00D1FD68 /* MainTabBarController.swift */,
+				7A46D5722D31553700D1FD68 /* HomeViewController.swift */,
+				7A46D5742D31553E00D1FD68 /* SearchViewController.swift */,
+				7A46D5762D31554F00D1FD68 /* NotificationsViewController.swift */,
+				7A46D5782D31555F00D1FD68 /* DirectMessagesViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +155,6 @@
 			files = (
 				7A46D5662D31534C00D1FD68 /* Assets.xcassets in Resources */,
 				7A46D5692D31534C00D1FD68 /* Base in Resources */,
-				7A46D5612D31534A00D1FD68 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A46D55E2D31534A00D1FD68 /* ViewController.swift in Sources */,
+				7A46D5752D31553E00D1FD68 /* SearchViewController.swift in Sources */,
+				7A46D5732D31553700D1FD68 /* HomeViewController.swift in Sources */,
+				7A46D55E2D31534A00D1FD68 /* MainTabBarController.swift in Sources */,
+				7A46D5792D31555F00D1FD68 /* DirectMessagesViewController.swift in Sources */,
 				7A46D5642D31534A00D1FD68 /* Twitter_Clone.xcdatamodeld in Sources */,
 				7A46D55A2D31534A00D1FD68 /* AppDelegate.swift in Sources */,
+				7A46D5772D31554F00D1FD68 /* NotificationsViewController.swift in Sources */,
 				7A46D55C2D31534A00D1FD68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A46D55F2D31534A00D1FD68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A46D5602D31534A00D1FD68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A46D5672D31534C00D1FD68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,11 +319,11 @@
 				DEVELOPMENT_TEAM = PGWW3RK4AQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Twitter Clone/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +331,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vb.Twitter-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,11 +351,11 @@
 				DEVELOPMENT_TEAM = PGWW3RK4AQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Twitter Clone/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vb.Twitter-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
